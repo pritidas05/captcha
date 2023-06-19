@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project-2 Contact form with captcha</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="icon" href="favicon.ico">
+</head>
+<body>
+<div class="container">
+	<h3>CONTACT FORM</h3>
+	<form>
+		<div class="xyz">
+			<label for="Name" class="form-label">Name:</label>
+			<input type="text" name="Name" class="form-control" id="Name" autofocus placeholder="Name">
+		</div>
+		<div class="xyz">
+			<label for="email" class="form-label">Email:</label>
+			<input type="email" name="email" class="form-control" id="email" placeholder="priti@gmail.com">
+		</div>
+		<div class="xyz">
+			<label for="password" class="form-label">Password:</label>
+			<input type="password" name="password" class="form-control" id="password" placeholder="Password">
+		</div>
+		<div class="xyz">
+			<label for="Contact No" class="form-label">Contact No:</label>
+			<input type="text" name="Contact No" class="form-control" id="Contact No" placeholder="0123456789">
+		</div>
+
+		<div class="xyz">
+			<label for="captcha" class="form-label">Enter Captcha:</label>
+			<div class="row">
+				<div class="col-xyz">
+					<input type="text" class="form-control" readonly id="captcha">
+				</div>
+				<div class="col-xyz">
+					<input type="text" class="form-control" id="textinput">
+				</div>
+			</div>
+		</div>
+
+		<button onclick="submitt()" class="btn btn-primary btn-lg btn-block">Submit</button>
+	</form>
+	<p>Captcha code<img src="refresh.jpg" width="30px" onclick="captcha()"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+ <!--Project-2 Contact form with captcha>
+	<!-Name: PRITI PRIYA DAS-->

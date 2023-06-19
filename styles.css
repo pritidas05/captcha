@@ -1,0 +1,123 @@
+body {
+    background-image: url("codeclause.jpg");
+    background-color: rgb(125, 119, 225);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+.container h3 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+
+
+.container form label {
+    font-weight: bold;
+}
+
+
+
+.container form input[type="text"],
+.container form input[type="email"],
+.container form input[type="password"] 
+{
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #b6d2e9;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
+.container form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.container form button:hover {
+    background-color: #0056b3;
+}
+
+.container p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.container p a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+.container p a:hover {
+    color: #0056b3;
+}
+
+.container .captcha {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.container .captcha .captcha-image 
+{
+    width: 30%;
+}
+
+.container .captcha .captcha-image img 
+{
+    width: 50%;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+
+
+.container .captcha .captcha-image img:hover 
+{
+    transform: scale(1.05);
+}
+
+.container .captcha .captcha-input 
+{
+    width: 60%;
+}
+
+.container .captcha .refresh-icon 
+{
+    width: 30px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.container .captcha .refresh-icon:hover 
+{
+    transform: rotate(360deg);
+}
